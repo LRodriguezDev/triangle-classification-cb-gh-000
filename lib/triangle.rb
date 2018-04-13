@@ -11,9 +11,7 @@ class Triangle
   def kind
     
 
-    if @size1 < 0 || @size2 < 0 || @size3 < 0
-      raise TriangleError
-    end
+    
 
     if @side1 == @side2 && @side1 == @side3
       return :equilateral
